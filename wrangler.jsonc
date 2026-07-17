@@ -1,0 +1,10 @@
+{
+  "name": "hikkInn",
+  "compatibility_date": "2026-07-01",
+  "pages_build_output_dir": ".vercel/output",
+  "pages_dev": {},
+  "durable_objects": {
+    "bindings": [{ "name": "DISPATCH", "class_name": "DispatchCoordinator" }]
+  },
+  "migrations": [{ "tag": "v1", "new_classes": ["DispatchCoordinator"] }]
+}

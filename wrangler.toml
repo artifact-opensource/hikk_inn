@@ -1,0 +1,23 @@
+name = "hikkInn"
+compatibility_date = "2026-07-01"
+pages_build_output_dir = ".vercel/output"  # set by @cloudflare/next-on-pages
+
+# Cloudflare bindings (shapes only — values provisioned in dashboard/CI).
+# Durable Object for live dispatch (Spike A logic ports here).
+[[durable_objects.bindings]]
+name = "DISPATCH"
+class_name = "DispatchCoordinator"
+
+[[migrations]]
+tag = "v1"
+new_classes = ["DispatchCoordinator"]
+
+# Postgres via Hyperdrive (or managed PG). Connection string injected at deploy.
+# [hyperdrive]
+# name = "HikkInnDB"
+# database = "postgresql://..."
+
+# Vectorize index for AI planner RAG (P4).
+# [[vectorize.bindings]]
+# name = "CATALOG_INDEX"
+# index_name = "hikkInn-catalog"

@@ -1,0 +1,19 @@
+:root {
+  --teal: #0e7490;
+  --teal-light: #22d3ee;
+  --ink: #0f172a;
+  --muted: #64748b;
+  --bg: #eef2f7;
+  --card: #ffffff;
+  --line: #e2e8f0;
+  --amber: #f59e0b;
+  --green: #16a34a;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background: var(--bg);
+  color: var(--ink);
+}
+a { color: var(--teal); }
