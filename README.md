@@ -16,6 +16,27 @@ Pakistan tourism sector with a single, automated, two-sided platform.
 
 ---
 
+## Demo — wireframes & system diagrams
+
+Real renders (not mockups-in-text). Full set in [`docs/assets/`](docs/assets/).
+
+### Tourist app — stay · meals · live taxi · charter · AI
+![Tourist app](docs/assets/wf-tourist.png)
+
+### Operator console — inventory · kitchen & dispatch board · fleet
+![Admin console](docs/assets/wf-admin.png)
+
+### Driver companion app — availability · nearby requests · earnings
+![Driver app](docs/assets/wf-driver.png)
+
+### System architecture
+![Architecture](docs/assets/diagram-architecture.png)
+
+### Live dispatch flow (Uber-style, Durable Objects WebSocket)
+![Dispatch flow](docs/assets/diagram-dispatch.png)
+
+---
+
 ## Repository layout
 
 ```
@@ -30,25 +51,31 @@ HikkInn/
 │   ├── live-dispatch.md           # Uber-style live taxi/food dispatch design
 │   ├── charter.md                 # aircraft/ATV charter booking model
 │   ├── ai-customization.md        # AI itinerary & recommendation design
-│   └── research/
-│       ├── market-north-pakistan.md   # demographics & market (Jul 2026)
-│       ├── hospitality-services.md     # current supply & gaps (Jul 2026)
-│       └── tech-landscape.md           # competitive/tech research (Jul 2026)
-└── (code lands here as the build begins)
+│   ├── mvp-scope.md               # MVP scope (in/out, phases, metrics)
+│   ├── spike-plan.md              # technical spike plan
+│   ├── assets/                    # wireframe + diagram PNGs
+│   ├── research/                  # Jul 2026 raw market/supply/tech research
+│   └── stakeholder/               # investor / steering docs (see below)
+├── spike/                         # throwaway proof-of-concepts (A/B/C)
+└── (build code lands here as P0 begins)
 ```
 
-See `docs/research/` for the July 2026 market, supply, and technology research
-that grounds the product decisions above.
+### Stakeholder & business pack (`docs/stakeholder/`)
+- `01-market-research.md` — North Pakistan market (Jul 2026)
+- `02-demographic-research.md` — traveler & supplier segments
+- `03-business-analytics.md` — TAM/SAM/SOM, unit economics
+- `04-architecture.md` — stakeholder architecture brief
+- `05-risk-management.md` — risk register & issues to dial in
+- `06-blueprint.md` — phased build plan (P0–P4)
+- `07-walkthrough-presentation.md` — 13-slide deck narrative + speaker notes
 
 ---
 
-## Status
+## Research basis
 
-- [x] Repo initialized
-- [x] Baseline documentation & domain spec
-- [x] North Pakistan market / supply / tech research (Jul 2026)
-- [ ] Architecture spike / MVP scope
-- [ ] Build (admin + tourist web apps, driver companion app)
+All product decisions are grounded in **July 2026** market, supply, and
+technology research — see `docs/research/`. Where public data could not be
+verified, items are explicitly marked `[NV]` (no verification) rather than
+fabricated; primary-data acquisition is scoped in the stakeholder pack.
 
----
 *Last updated: 2026-07-17*
