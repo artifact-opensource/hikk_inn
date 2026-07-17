@@ -10,6 +10,15 @@ out/
 dist/
 build/
 .wrangler/
+.vercel/
+
+# Local vector / semantic map (generated, not source)
+.vdb/
+*.tsbuildinfo
+
+# Coverage / test output
+coverage/
+*.lcov
 
 # Env / secrets
 .env
@@ -17,6 +26,8 @@ build/
 !.env.example
 *.pem
 *.key
+secrets.json
+*.secret
 
 # Logs
 *.log
