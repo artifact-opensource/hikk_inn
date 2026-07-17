@@ -37,7 +37,7 @@ billing both sides; push; seasonal theming; agentic admin.
   weighted). Manual override. CSS vars swap palette; hero art swaps SVG→PNG.
 - 4 hand-built SVG landscapes rendered to `public/art/season-*.png`.
 
-## 6. Agentic admin (`lib/agent/db.ts`, `lib/agent/runtime.ts`, `components/AdminAssistant.tsx`)
+## 6. Agentic admin (`lib/agent/db.ts`, `lib/ai/rag.ts`, `lib/agent/runtime.ts`, `components/AgentChat.tsx`, `components/PackageBuilder.tsx`)
 - **IndexedDB** durable store (tasks/bookings/orders/audit) — offline-capable,
   PWA-friendly.
 - **AI runtime** parses natural-language admin commands → schedule / cancel /

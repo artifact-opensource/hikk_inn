@@ -10,24 +10,36 @@ Pakistan tourism sector with a single, automated, two-sided platform.
 - **Tourist / end-user side** — travel & stay customization: rooms, meals
   (per-day / per-meal, prepackaged), transportation (live, Uber-style), and
   adventure activities (paragliding, skydiving, heli tours, etc.).
+- **AI (both sides)** — OpenRouter default, pluggable (Gemini/OpenAI/Anthropic/
+  compat/Ollama). Grounded **RAG** agentic assistant for admin ops + tourist
+  planning, with booking management, billing/accounting/invoicing, reminders.
+  See [`docs/agentic-ai.md`](docs/agentic-ai.md).
 
 > Awarded project — upgrade manual systems → automated, AI-assisted, web-hosted
 > combined services.
 
 ---
 
-## Demo — wireframes & system diagrams
+## Screenshots & diagrams (live app)
 
-Real renders (not mockups-in-text). Full set in [`docs/assets/`](docs/assets/).
+Real screenshots of the running webapp (not mockups). Full set in
+[`docs/assets/`](docs/assets/).
 
-### Tourist app — stay · meals · live taxi · charter · AI
-![Tourist app](docs/assets/wf-tourist.png)
+### Home — role entry (Tourist / Operator / Driver)
+![Home](docs/assets/shots/shot-home.png)
 
-### Operator console — inventory · kitchen & dispatch board · fleet
-![Admin console](docs/assets/wf-admin.png)
+### Tourist app — stay · meals · live taxi · charter · AI · push
+![Tourist app](docs/assets/shots/shot-tourist.png)
 
-### Driver companion app — availability · nearby requests · earnings
-![Driver app](docs/assets/wf-driver.png)
+### Operator console — inventory, billing, agentic AI assistant
+![Operator console](docs/assets/shots/shot-operator.png)
+
+### Driver companion — availability · nearby requests · earnings
+![Driver app](docs/assets/shots/shot-driver.png)
+
+### Seasonal theming (auto by date, manual override)
+![Spring](public/art/season-spring.png) ![Summer](public/art/season-summer.png)
+![Autumn](public/art/season-autumn.png) ![Winter](public/art/season-winter.png)
 
 ### System architecture
 ![Architecture](docs/assets/diagram-architecture.png)
@@ -78,4 +90,4 @@ technology research — see `docs/research/`. Where public data could not be
 verified, items are explicitly marked `[NV]` (no verification) rather than
 fabricated; primary-data acquisition is scoped in the stakeholder pack.
 
-*Last updated: 2026-07-17*
+*Last updated: 2026-07-17 — screenshots refreshed to live webapp; seasonal art added*
