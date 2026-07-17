@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0e7490"/><stop offset="0.5" stop-color="#22d3ee"/><stop offset="1" stop-color="#34d399"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="420" fill="url(#sky)"/>
+  <circle cx="980" cy="80" r="52" fill="#fef9c3" opacity="0.95"/>
+  <path d="M0 300 L200 160 L380 300 Z" fill="#64748b"/>
+  <path d="M280 300 L500 110 L720 300 Z" fill="#475569"/>
+  <path d="M540 300 L780 80 L1020 300 Z" fill="#64748b"/>
+  <path d="M840 300 L1040 170 L1200 300 Z" fill="#475569"/>
+  <path d="M500 110 L545 160 L455 160 Z" fill="#e0f2fe"/><path d="M780 80 L825 135 L735 135 Z" fill="#e0f2fe"/>
+  <!-- lake -->
+  <rect y="360" width="1200" height="60" fill="#0891b2" opacity="0.7"/>
+  <path d="M0 360 L1200 360 L1200 390 L0 390 Z" fill="#22d3ee" opacity="0.5"/>
+  <text x="40" y="60" font-family="sans-serif" font-size="34" font-weight="800" fill="#fff">Summer · Peak</text>
+</svg>

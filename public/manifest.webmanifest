@@ -1,0 +1,12 @@
+{
+  "name": "HikkInn",
+  "short_name": "HikkInn",
+  "description": "North Pakistan hospitality & travel platform",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#eef2f7",
+  "theme_color": "#0e7490",
+  "icons": [
+    { "src": "/art/season-summer.png", "sizes": "1200x420", "type": "image/png" }
+  ]
+}
